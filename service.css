@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+   --black: black;
+   --purple: purple;
+   --light-color:#666;
+   --box-shadow:0.5rem 1.5rem rgba(0,0,0,.1);
+   --dark-moderate-voilet:#663399;
+
+}
+*{
+   font-family: Playfair;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+   text-decoration: none;
+   text-transform: none;
+   transition: all .2s linear;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-padding-top:7rem ;
+   scroll-behavior: smooth;
+}
+
+body{
+   background: #fff;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   display: flex;
+
+}
+
+.header{
+   height: 120px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   align-items: center;
+   border: 1px solid;
+   justify-content: space-between;
+   padding: 2rem;
+   background: #fff;
+   z-index: 1000;
+   padding-top: 20px;
+
+}
+
+ header.logo img{
+   margin-top: 5px;
+  height: 75%;
+   width: 55%;
+   display: inline-block;
+}
+
+.header .headbar a{
+   font-size: 1.7rem;
+   border-radius: .5rem;
+   padding: .5rem 1.5rem;
+   color: var(--light-color);
+}
+
+.header .headbar a:hover{
+   color: #130707;
+   background: linear-gradient(120deg, #FAB2FF 40%, #663399);
+}
+
+.header .menubtn{
+   margin-right: 60px;
+}
+
+.header .menubtn button{
+   padding: 10px 45px;
+   text-align: center;
+   font-size: 14px;
+   color: #fff;
+   border: none;
+   background-image:linear-gradient(to right, #649bff,#9056c7,#649bff);
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+
+.container{
+   width: 100%;
+   min-height: 100%;
+   background-color: #fff;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   padding: 0px 70px; 
+
+}
+.card img{
+   width: 95% ;
+   height: 100%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.content-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.content-section .card{
+   flex: 1;
+   margin: 25px 25px;
+   box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+}
+
+ .content-section .card h2{
+   text-align: justify;
+} 
+

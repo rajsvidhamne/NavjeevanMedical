@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login Page</title>
+   <link rel="stylesheet" href="login.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <header class="header">
+      <a href="#" class="logo">
+         <img src="image/logo2.png">
+      </a>
+      <nav class="headbar">
+         <a href="index.html">Home</a>
+         <a href="login.html">Login</a>
+         <a href="doctor.html">Doctor</a>
+         <a href="medicine.html">Medicine</a>
+         <a href="service.html">Service</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="menubtn">
+         <button>Helpline</button>
+      </div>
+   </header>
+  
+   <div class="container">
+      <div class="signin-signup">
+          <form action="" class="sign-in-form">
+              <h2 class="title">Sign in</h2>
+              <div class="input-field">
+                  <i class="fa fa-user"></i>
+                  <input type="text" placeholder="Username" required>
+              </div>
+              <div class="input-field">
+                  <i class="fa fa-lock"></i>
+                  <input type="password" placeholder="Password" required>
+              </div>
+              <input type="submit" value="Login" class="btn">
+              <p class="social-text">Or Sign in with social platform</p>
+              <div class="social-media">
+                  <a href="#" class="social-icon">
+                      <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="" class="social-icon">
+                      <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="" class="social-icon">
+                      <i class="fa fa-google"></i>
+                  </a>
+                  <a href="" class="social-icon">
+                      <i class="fa fa-linkedin"></i>
+                  </a>
+              </div>
+              <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+          </form>
+          <form action="" class="sign-up-form">
+              <h2 class="title">Sign up</h2>
+              <div class="input-field">
+                  <i class="fa fa-user"></i>
+                  <input type="text" placeholder="Username" required>
+              </div>
+              <div class="input-field">
+                  <i class="fa fa-envelope"></i>
+                  <input type="text" placeholder="Email" required>
+              </div>
+              <div class="input-field">
+                  <i class="fa fa-lock"></i>
+                  <input type="password" placeholder="Password" required>
+              </div>
+              <input type="submit" value="Sign up" class="btn">
+              <p class="social-text">Or Sign in with social platform</p>
+              <div class="social-media">
+                  <a href="#" class="social-icon">
+                      <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="" class="social-icon">
+                      <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="" class="social-icon">
+                      <i class="fa fa-google"></i>
+                  </a>
+                  <a href="" class="social-icon">
+                      <i class="fa fa-linkedin"></i>
+                  </a>
+              </div>
+              <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+          </form>
+      </div>
+      <div class="panels-container">
+          <div class="panel left-panel">
+              <div class="content">
+               <h3>Welcome Back</h3>
+               <p>Please log in using your personal information to stay connected with us </p>  
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt minima iure?</p> -->
+                  <button class="btn" id="sign-in-btn">Sign in</button>
+              </div>
+              <img src="image/signin.jpg" alt="" class="image">
+          </div>
+          <div class="panel right-panel">
+              <div class="content">
+               <h3>New here ?</h3>
+               <p>Join now and start exploring the website</p>
+                  <button class="btn" id="sign-up-btn">Sign up</button>
+              </div>
+              <img src="image/signup.jpg" alt="" class="image">
+          </div>
+      </div>
+  </div>
+  <script src="login.js"></script>
+
+   
+</body>
+</html>
+
+
